@@ -19,7 +19,7 @@ public class Program {
 		cal.setTime(d);
 		cal.add(Calendar.MONTH, 3);
 		d = cal.getTime();
-		
+		System.out.println("----------------");
 		System.out.println(sdf.format(d));
 	}
 
